@@ -6,6 +6,8 @@ const { imageUpload, videoUpload, imageReducerUpload, localFileUpload } = requir
 
 //api route
 route.post('/localFileUpload', localFileUpload);
-
+route.post('/imageUpload', imageUpload);
+route.post('/videoUpload', videoUpload);
+route.post('/imageReducerUpload', imageReducerUpload);
 
 module.exports = route;
